@@ -11,7 +11,6 @@ body {
 .container {
     width: 1140px;
     margin: auto;
-
 }
 
 .header {
@@ -28,6 +27,9 @@ body {
     background-blend-mode: overlay;
     font-size: 27px;
     padding-left: 72px;
+    text-decoration: none;
+    color: #222222;
+    
 }
 
 .logo span {
@@ -368,11 +370,10 @@ body {
     line-height: 24px;
 }
 .subscribeBG {
-    margin: 0 auto;
-    padding: 0;
-    width: 1600px;
+    min-width: 1140px;
     background: url(../img/Layer_41.png) no-repeat, #ccc;
-     background-blend-mode: overlay;
+    background-size: cover;
+    background-blend-mode: overlay;
 }
 
 .subscribe {
