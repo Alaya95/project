@@ -1,3 +1,4 @@
+$color-pink: #f16d7f;
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 body {
@@ -31,7 +32,7 @@ body {
   .rectangle {
     width: 12px;
     height: 92px;
-    background-color: #f16d7f;
+    background-color: $color-pink;
     margin-right: 14px;
     margin-left: 2px;
   }
@@ -55,7 +56,7 @@ body {
       font-weight: 700;
       text-transform: uppercase;
         .textBanner span {
-          color: #f16d7f;
+          color: $color-pink;
         }
      }
 }
@@ -111,7 +112,7 @@ body {
   & h3{
     font-size: 30px;
     margin: 0;
-    color: #f16d7f;
+    color: $color-pink;
   }
 }
 
@@ -141,7 +142,7 @@ body {
   & button {
     width: 214px;
     line-height: 54px;
-    background-color: #f16d7f;
+    background-color: $color-pink;
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
@@ -229,7 +230,7 @@ body {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
-    color: #f16d7f;
+    color: $color-pink;
     margin-bottom: 20px;
   }
 
@@ -270,7 +271,7 @@ body {
       letter-spacing: 1px;
     }
     & span{
-      color: #f16d7f;
+      color: $color-pink;
       letter-spacing: 1.5px;
     }
   }
@@ -355,7 +356,7 @@ body {
     height: 27px;
     font-weight: 700;
     line-height: 26px;
-    color: #f16d7f;
+    color: $color-pink;
     font-style: normal;
   }
   & span {
@@ -405,7 +406,7 @@ body {
   button {
     width: 104px;
     height: 46px;
-    background-color: #f16d7f;
+    background-color: $color-pink;
     color: #fff;
     outline: none;
     border: none;
