@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Shopping Cart</title>
-    <link rel="stylesheet" href="styles/css/stylecart.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/cartStyle.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <script src="https://kit.fontawesome.com/861689887d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="header container">
-        <div class="logo">Bran<span>d</span></div>
+        <a href="index.html" class="logo">Bran<span>d</span></a>
 
         <form method="get" class="search">
             <button class="search__browse" name="browse" id="">Browse <i class="fas fa-caret-down"></i></button>
@@ -24,7 +26,7 @@
     <div class="headerLine"></div>
 
     <nav class="topNav container">
-        <a href="#">Home</a>
+        <a href="index.html">Home</a>
         <a href="#">Man</a>
         <a href="#">Women</a>
         <a href="#">Kids</a>
@@ -57,11 +59,7 @@
                 <div class="cartTopSubtotal">Subtotal</div>
                 <div class="cartTopProductDetailes">Action</div>
             </div>
-
-
-
-
-
+            
 
             <div class="cartProduct">
 
@@ -84,7 +82,9 @@
                     $150
                 </div>
 
-                <div class="cartQuantility">Quantity</div>
+                <div class="cartQuantility">
+                    <input type="number" value="1" >
+                </div>
 
 
                 <div class="cartShipping">
@@ -124,7 +124,9 @@
                     $150
                 </div>
 
-                <div class="cartQuantility">Quantity</div>
+                <div class="cartQuantility">
+                    <input type="number" value="1" >
+                </div>
 
 
                 <div class="cartShipping">
@@ -165,7 +167,9 @@
                     $150
                 </div>
 
-                <div class="cartQuantility">Quantity</div>
+                <div class="cartQuantility">
+                    <input type="number" value="1" >
+                </div>
 
 
                 <div class="cartShipping">
@@ -198,7 +202,7 @@
 
             <div class="shippingAdress">
                 <div class="cartFormText">Shipping Adress</div>
-                <input id="town" list="towns" class="cartFormInput" type="text" placeholder="Bangladesh">
+                <input id="town" list="towns"  type="text" placeholder="Bangladesh">
 
                 <datalist id="towns">
                     <option value="Gaurnadi">
@@ -207,14 +211,10 @@
                     <option value="Bangladesh">
                 </datalist>
 
-
-
-
-                <input class="cartFormInput" type="text" placeholder="State">
-                <input class="cartFormInput" type="number" placeholder="Postcode / Zip">
+                <input  type="text" placeholder="State">
+                <input  type="number" placeholder="Postcode / Zip">
                 <button class="cartFormButton">get a quote</button>
             </div>
-
 
             <div class="couponDiscount">
                 <div class="cartFormText">Coupon discount</div>
@@ -224,38 +224,33 @@
 
                 <button class="cartFormButton">Apply coupon</button>
             </div>
-
-
             <div class="check">
-                <div class="checkout">
-                    <div class="checkoutSub">Sub total <span>$900</span></div>
-                    <div class="checkoutTotal">GRAND TOTAL <span>$900</span></div>
+                <div class="checkOut">
+                    <div class="checkOutSub">Sub total <span>$900</span></div>
+                    <div class="checkOutTotal">GRAND TOTAL <span>$900</span></div>
+                    <div class="line"></div>
                     <button>Proceed to checkout</button>
                 </div>
             </div>
-
-
         </div>
-
-
-
     </div>
+
     <div class="subscribeBG">
         <div class="subscribe container">
-            <div class="subscribe__block1">
+            <div class="subscribe__block">
                 <img src="img/Layer_40.png" alt="photo">
-                <div class="subscribe__block1-text">
+                <div class="subscribe__block-text">
                     <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
                     <p>Bin Burhan <br><span>Dhaka, Bd</span></p>
                 </div>
             </div>
             <div class="line"></div>
-            <div class="subscribe__block2">
-                <div class="subscribe__block2-text">
+            <div class="subscribe__blockFeedback">
+                <div class="subscribe__blockFeedback-text">
                     <h3>Subscribe</h3>
                     <p>For our newletter and promotion</p>
                 </div>
-                <form action="subscribe-email" class="subscribe-email">
+                <form action="subscribe-form"  class="subscribeForm">
                     <input type="email" name="mail" placeholder="Enter Your Email">
                     <button>Subscribe</button>
                 </form>
@@ -267,7 +262,7 @@
 
     <div class="footer container">
         <div class="footer__top">
-            <div class="footer_block1">
+            <div class="footer_blockText">
                 <div class="logo">Bran<span>d</span></div>
 
                 <p> Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
@@ -275,8 +270,8 @@
                 <p>Efficiently plagiarize 24/365 action items and focused infomediaries.Distinctively seize superior initiatives for wireless technologies. Dynamically optimize. </p>
             </div>
 
-            <div class="footer_block2">
-                <a href="#" class="footer__link">Company</a>
+            <div class="footer_blockLink">
+                <p>Company</p>
                 <a href="#" class="footer__link">Home</a>
                 <a href="#" class="footer__link">Shop</a>
                 <a href="#" class="footer__link">About</a>
@@ -284,16 +279,16 @@
                 <a href="#" class="footer__link">Contact</a>
             </div>
 
-            <div class="footer_block2">
-                <a href="#" class="footer__link">Information</a>
+            <div class="footer_blockLink">
+                <p>Information</p>
                 <a href="#" class="footer__link">Tearms & Condition</a>
                 <a href="#" class="footer__link">Privacy Policy</a>
                 <a href="#" class="footer__link">How to Buy</a>
                 <a href="#" class="footer__link">How to Sell</a>
                 <a href="#" class="footer__link">Promotion</a>
             </div>
-            <div class="footer_block2">
-                <a href="#" class="footer__link">Shop Category</a>
+            <div class="footer_blockLink">
+                <p>Shop Category</p>
                 <a href="#" class="footer__link">Men</a>
                 <a href="#" class="footer__link">Women</a>
                 <a href="#" class="footer__link">Child</a>
@@ -302,7 +297,7 @@
             </div>
         </div>
         <div class="footerBG container">
-            <p>&copy; 2017 Brand All Rights Reserved.</p>
+            <p>&copy; 2017  Brand  All Rights Reserved.</p>
 
             <div class="footerBG-link">
                 <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
