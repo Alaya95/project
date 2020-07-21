@@ -1,4 +1,4 @@
-$color: (#f16d7f);
+@import "bs";
 .header {
   height: 100px;
   display: flex;
@@ -17,7 +17,7 @@ $color: (#f16d7f);
 
   .logo span {
     font-weight: 700;
-    color: $color;
+    color: $colorFont;
   }
 }
 
@@ -69,7 +69,7 @@ $color: (#f16d7f);
 .header__account-bar {
   width: 130px;
   line-height: 32px;
-  background-color: $color;
+  background-color: $colorButtonBG;
   padding-left: 19px;
   color: #ffffff;
   font-size: 15px;
@@ -77,7 +77,7 @@ $color: (#f16d7f);
   outline: none;
   border: none;
   &:hover {
-    box-shadow: 0 0 10px #f16d7f;
+    box-shadow: 0 0 10px $colorButtonBG;
   }
 }
 .headerLine {
@@ -100,7 +100,7 @@ $color: (#f16d7f);
     padding-bottom: 10px;
     &:hover {
       padding-bottom: 7px;
-      border-bottom: 3px solid $color;
+      border-bottom: 3px solid $colorFont;
     }
     &:not(:last-child) {
       margin-right: 46px;
