@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <title></title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/singlepage.css">
     <script src="https://kit.fontawesome.com/861689887d.js" crossorigin="anonymous"></script>
@@ -47,48 +43,69 @@
     
 
 
-        <div class="product container">
-            <div class="product__description">
+
+    <div class="carousel container">
+        <div class="carousel__img">
+            <button><i class="fas fa-chevron-left"></i></button>
+                <img src="img/Layer_42.png" alt="slider-img">
+            <button><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+
+    <div class="product container">
+        <div class="product__description">
+            <div class="devider">
+                Women collection
+                <div class="deviderBlock">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
                 <h3>Mochino cheap and chic</h3>
                 <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
-            </div>
-            <div class="line"></div>
-            <form class="product__form">
-                <div class="choose">
-                    <p>Choose color</p>
-                    <input type="color" list="colorList" id="colors" value="#ef5b70" size="12px">
-                    <datalist id="colorList">
-                        <option value="#ef5b70" label="red">
-                        <option value="#222222" label="black">
-                        <option value="#" label="">
-                        <option value="" label="">
-                    </datalist>
+                <div class="descriptionMaterial">
+                    <p>Material: <span>Cotton</span></p>
+                    <p>Designer: <span>Binburhan</span></p>
                 </div>
-                <div class="choose">
-                    <p>Choose size</p>
-                    <input type="text" list="sizeList" id="sizes" placeholder="XXL">
-                    <datalist id="sizeList">
-                        <option value="XS">
-                        <option value="S">
-                        <option value="M">
-                        <option value="L">
-                        <option value="XL">
-                        <option value="XXL">
-                    </datalist>
-                </div>
-                <div class="choose">
-                    <p>Quantity</p>
-                    <input type="number" placeholder="2">
-                </div>
-            </form>
-            <button >
-                <img src="img/cart3.png" alt="cart"> Add to Cart
-            </button>
+                <h4>$561</h4>
         </div>
 
-    div.carousel
+        <div class="product__line"></div>
+        <form class="product__form">
+            <div class="choose">
+                <p>Choose color</p>
+                <input type="color" list="colorList" id="colors" value="#ef5b70" size="12px">
+                <datalist id="colorList">
+                    <option value="#ef5b70" label="red">
+                    <option value="#222222" label="black">
+                    <option value="#" label="">
+                    <option value="" label="">
+                </datalist>
+            </div>
 
-   <div class="line"></div>
+            <div class="choose">
+                <p>Choose size</p>
+                <input type="text" list="sizeList" id="sizes" placeholder="XXL">
+                <datalist id="sizeList">
+                    <option value="XS">
+                    <option value="S">
+                    <option value="M">
+                    <option value="L">
+                    <option value="XL">
+                    <option value="XXL">
+                </datalist>
+            </div>
+            <div class="choose">
+                <p>Quantity</p>
+                <input type="number" placeholder="2">
+            </div>
+        </form>
+        <button >
+            <img src="img/cart3.png" alt="cart"> Add to Cart
+        </button>
+    </div>
 
     <div class="similar container">
         <div class="similar__text">
@@ -181,7 +198,6 @@
             </div>
         </div>
     </div>
-
 
     <div class="footer container">
         <div class="footer__top">
