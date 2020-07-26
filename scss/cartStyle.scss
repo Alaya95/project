@@ -1,5 +1,4 @@
 @import "bs";
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 body {
@@ -14,48 +13,6 @@ body {
   width: 1140px;
   margin: auto;
 }
-
-.breadCrumb {
-  height: 150px;
-  background: #f8f3f4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 90px;
-  & .newArrival {
-    /* Style for "New Arriva" */
-    width: 176px;
-    height: 18px;
-    color: #f16d7f;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 20px;
-    text-transform: uppercase;
-    padding-left: 10px;
-  }
-
-  .breadCrumbLink {
-    width: 220px;
-    height: 11px;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: uppercase;
-    & a {
-      color: #636363;
-      text-decoration: none;
-      margin-left: 5px;
-    }
-    & a:last-child {
-      color: #f16d7f;
-      font-weight: 700;
-    }
-    & a:hover {
-      color: #f16d7f;
-    }
-  }
-}
-
-
 
 .shoppingCart {}
 
@@ -100,8 +57,6 @@ body {
 
 
 
-
-
 .cartProduct {
   display: flex;
   justify-content: space-between;
@@ -115,7 +70,6 @@ body {
   color: #6f6e6e;
 
 }
-
 
 
 .cartLine {

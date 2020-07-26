@@ -1,4 +1,4 @@
-$color-pink: #f16d7f;
+@import "variables";
 .footer {
   height: 430px
 }
@@ -29,12 +29,12 @@ $color-pink: #f16d7f;
     text-decoration: none;
   }
   a:hover {
-    color: $color-pink;
+    color: $colorFont;
   }
   p {
     text-transform: uppercase;
     font-size: 18px;
-    color: $color-pink;
+    color: $colorFont;
     font-weight: 700;
   }
 }
@@ -72,7 +72,7 @@ $color-pink: #f16d7f;
   background-color: #ffffff;
   text-align: center;
   :hover {
-    background: $color-pink;
+    background: $colorIconBGHover;
   }
   i {
     color: #c2c2c2;

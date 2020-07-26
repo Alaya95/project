@@ -1,77 +1,421 @@
-/*
-Error: Invalid CSS after "$btnBG": expected ":", was ""
-        on line 2 of _variables.scss
-        from line 3 of _bs.scss
-        from line 1 of singlepage.scss
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center; }
 
-1: $btnBG
+.logo {
+  width: 165px;
+  line-height: 51px;
+  text-transform: uppercase;
+  background: url("../img/logo.png") no-repeat;
+  background-blend-mode: overlay;
+  font-size: 27px;
+  padding-left: 72px;
+  text-decoration: none;
+  color: #222222;
+  margin-right: 20px; }
+  .logo .logo span {
+    font-weight: 700;
+    color: #f16d7f; }
 
-Backtrace:
-_variables.scss:2
-_bs.scss:3
-singlepage.scss:1
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:651:in `variable'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in `render'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-D:/proga/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
-D:/proga/Ruby27-x64/bin/sass:23:in `load'
-D:/proga/Ruby27-x64/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"$btnBG\": expected \":\", was \"\"\A         on line 2 of _variables.scss\A         from line 3 of _bs.scss\A         from line 1 of singlepage.scss\A \A 1: $btnBG"; }
+.search {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  overflow: hidden;
+  font-size: 14px; }
+  .search .search__browse {
+    padding: 14px;
+    background-color: #f6f6f6;
+    line-height: 38px;
+    border: none;
+    color: #7c7c7c;
+    outline: none; }
+    .search .search__browse i {
+      color: #838383; }
+  .search input {
+    height: inherit;
+    border: none;
+    overflow: hidden;
+    padding: 14px 16px;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    outline: none; }
+  .search button:last-child {
+    border: none;
+    height: inherit;
+    background: none;
+    padding: 12px;
+    outline: none;
+    color: #a4a4a4; }
+
+.header__cart {
+  margin-left: auto;
+  margin-right: 26px; }
+
+.header__account-bar {
+  width: 130px;
+  line-height: 32px;
+  background-color: #f16d7f;
+  padding-left: 19px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+  border: none; }
+  .header__account-bar:hover {
+    box-shadow: 0 0 10px #f16d7f; }
+
+.headerLine {
+  border-bottom: 1px solid #ececec; }
+
+.topNav {
+  height: 51px;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .topNav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+    padding-bottom: 10px; }
+    .topNav a:hover {
+      padding-bottom: 7px;
+      border-bottom: 3px solid #f16d7f; }
+    .topNav a:not(:last-child) {
+      margin-right: 46px; }
+
+.footer {
+  height: 430px; }
+
+.footer__top {
+  height: 350px;
+  display: flex;
+  justify-content: space-between; }
+
+.footer_blockText {
+  width: 430px; }
+  .footer_blockText p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #898989;
+    letter-spacing: 0.35px; }
+
+.footer_blockLink {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .footer_blockLink a {
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none; }
+  .footer_blockLink a:hover {
+    color: #f16d7f; }
+  .footer_blockLink p {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #f16d7f;
+    font-weight: 700; }
+
+.footerBG {
+  height: 79px;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  align-content: center; }
+  .footerBG p {
+    width: 260px;
+    height: 14px;
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.4px; }
+
+.footerBG-link {
+  width: 260px;
+  height: 79px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.social-link {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  text-align: center; }
+  .social-link :hover {
+    background: #f16d7f; }
+  .social-link i {
+    color: #c2c2c2;
+    padding: 8px; }
+  .social-link i:hover {
+    color: #fff; }
+
+.subscribeBG {
+  min-width: 1140px;
+  background: url(../img/Layer_41.png) no-repeat, #ccc;
+  background-position: center;
+  background-size: auto;
+  background-blend-mode: overlay;
+  margin-bottom: 50px; }
+
+.subscribe {
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 100px; }
+  .subscribe .line {
+    height: inherit;
+    border-right: 2px solid #fff; }
+
+.subscribe__block {
+  width: 569px;
+  display: flex;
+  align-items: flex-start; }
+  .subscribe__block img {
+    object-fit: contain;
+    margin-right: 28px; }
+  .subscribe__block p {
+    width: 386px;
+    color: #222224;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    font-style: italic; }
+  .subscribe__block p:last-child {
+    width: 82px;
+    height: 27px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #f16d7f;
+    font-style: normal; }
+  .subscribe__block span {
+    color: #222224;
+    font-size: 12px;
+    font-weight: 300; }
+
+.subscribe__blockFeedback {
+  width: 569px; }
+  .subscribe__blockFeedback-text {
+    margin-bottom: 30px; }
+    .subscribe__blockFeedback-text h3 {
+      width: 277px;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+      margin: auto; }
+    .subscribe__blockFeedback-text p {
+      width: 277px;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 400;
+      margin: auto; }
+
+.subscribeForm {
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center; }
+  .subscribeForm input {
+    width: 252px;
+    padding: 15px 16px;
+    overflow: hidden;
+    background-color: #e1e1e1;
+    outline: none;
+    border: none;
+    border-radius: 23px 0 0 23px; }
+  .subscribeForm button {
+    width: 104px;
+    height: 46px;
+    background-color: #f16d7f;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 0 23px 23px 0; }
+    .subscribeForm button:hover {
+      box-shadow: 0 0 10px #ef5b70; }
+
+.breadCrumb {
+  height: 150px;
+  background: #f8f3f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px; }
+  .breadCrumb .newArrival {
+    width: 176px;
+    color: #f16d7f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-left: 10px; }
+  .breadCrumb .breadCrumbLink {
+    width: 220px;
+    height: 11px;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase; }
+    .breadCrumb .breadCrumbLink a {
+      color: #636363;
+      text-decoration: none;
+      margin-left: 5px; }
+    .breadCrumb .breadCrumbLink a:last-child {
+      color: #f16d7f;
+      font-weight: 700; }
+    .breadCrumb .breadCrumbLink a:hover {
+      color: #f16d7f; }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #222222;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+.container {
+  width: 1150px;
+  margin: auto; }
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .product__description {
+    width: 618px; }
+    .product__description h3 {
+      text-align: center;
+      line-height: 24px;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .product__description p {
+      text-align: justify;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px; }
+  .product .line {
+    width: 618px;
+    border-bottom: 3px solid #e6e6e6; }
+  .product__form {
+    width: 537px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around; }
+    .product__form .choose {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 20px; }
+      .product__form .choose input {
+        width: 124px;
+        height: 25px;
+        border: 1px solid #eaeaea;
+        background-color: #ffffff;
+        color: #4a4a4a;
+        outline: none;
+        padding: 5px 10px; }
+  .product button {
+    width: 537px;
+    height: 55px;
+    border: 1px solid #ef5b70;
+    background-color: #ffffff;
+    outline: none;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ef5b70; }
+    .product button:hover {
+      box-shadow: 0 0 10px #ef5b70;
+      border: none; }
+    .product button img {
+      width: 26px;
+      height: 24px; }
+
+.similar {
+  height: auto;
+  margin-bottom: 50px; }
+  .similar__text {
+    text-align: center; }
+    .similar__text h2 {
+      color: #4d4d4d;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      text-transform: uppercase; }
+  .similar__catalog {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-top: 65px; }
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 365px;
+  margin-bottom: 40px; }
+  .item__photo {
+    position: relative;
+    width: 261px;
+    height: 279px;
+    object-fit: cover;
+    object-position: center center;
+    text-align: center;
+    background-color: #f7f7f7; }
+    .item__photo img {
+      height: inherit; }
+    .item__photo .itemPhotoHover {
+      position: absolute;
+      display: none;
+      color: #ffffff;
+      background: rgba(0, 0, 0, 0.7); }
+      .item__photo .itemPhotoHover button {
+        padding: 15px;
+        border: 1px solid #ffffff;
+        background: none;
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        outline: none; }
+        .item__photo .itemPhotoHover button img {
+          height: 22px;
+          width: 23px;
+          margin-right: 10px; }
+  .item__description {
+    padding: 5px 20px; }
+    .item__description h3 {
+      color: #6f6e6e;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase; }
+    .item__description p {
+      color: #f16d7f;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase; }
+
+.item:hover .itemPhotoHover {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
