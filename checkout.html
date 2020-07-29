@@ -3,8 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/checkout.css">
+    <script src="https://kit.fontawesome.com/861689887d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="header container">
+    <a href="#" class="logo">Bran<span>d</span></a>
+
+    <form method="get" class="search">
+        <button class="search__browse" name="browse" id="">Browse <i class="fas fa-caret-down"></i></button>
+        <input type="text" name="search" placeholder="Search for item...">
+        <button><i class="fas fa-search"></i></button>
+    </form>
+
+    <img src="img/cart.png" alt="cart" class="header__cart">
+    <button name="accountBar" class="header__account-bar">My Account <i class="fas fa-caret-down"></i></button>
+</div>
+<div class="headerLine"></div>
+<nav class="topNav container">
+    <a href="index.html">Home</a>
+    <a href="#">Man</a>
+    <a href="#">Women</a>
+    <a href="#">Kids</a>
+    <a href="#">Accoseriese</a>
+    <a href="#">Featured</a>
+    <a href="#">Hot Deals</a>
+</nav>
+<div class="breadCrumb container">
+    <div class="newArrival">New arrival</div>
+    <div class="breadCrumbLink">
+        <a href="#">Home</a>
+        <a href="#">Men</a>
+        <a href="#" class="breadCrumbLink-active">New arrival</a>
+    </div>
+</div>
+
+        <details open class="spoiler container">
+            <summary tabindex="1"><span>01. Shipping adress</span></summary>
+            <form action="registration">
+                <div class="register">
+                    <h3>Checkout as a guest or register</h3>
+                    <p>Register with us for future convenience</p>
+
+
+
+                    <label for="registrationGuest"><input type="radio" name="register" id="registrationGuest"> Check out as guest</label>
+
+
+                    <label for="registration"><input type="radio" name="register" id="registration" checked> Register</label>
+
+
+                    <h3>Register and save time</h3>
+
+                    <p>register with us for future convenience</p>
+                    <p><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+
+                    <button>Continue</button>
+                </div>
+                <div class="register">
+                    <h3>Alredy registed</h3>
+                    <p>Please log in below</p>
+                    <label for="registerEmail">Email addres <span>*</span></label>
+                    <input type="email" id="registerEmail">
+                    <label for="registerPassword">Password <span>*</span></label>
+                    <input type="password" id="registerPassword" minlength="8" >
+                    <p><span>* Required Fileds</span></p>
+                    <div class="registerLog">
+                        <button>Log in</button>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                </div>
+            </form>
+        </details>
+        <details class="spoiler container">
+            <summary tabindex="2"><span>02. Billing information</span></summary>
+        </details>
+        <details class="spoiler container">
+            <summary tabindex="3"><span>03. Shipping information</span></summary>
+        </details>
+        <details class="spoiler container">
+            <summary tabindex="4"><span>04. Shipping method</span></summary>
+        </details>
+        <details class="spoiler container">
+            <summary tabindex="5"><span>05. Payment method</span></summary>
+        </details>
+        <details class="spoiler container">
+            <summary tabindex="6"><span>06. Order review</span></summary>
+        </details>
+
+
+
+
+
 
 </body>
 </html>
