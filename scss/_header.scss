@@ -15,8 +15,7 @@
   text-decoration: none;
   color: #222222;
   margin-right: 20px;
-
-  .logo span {
+  span {
     font-weight: 700;
     color: $colorFont;
   }
@@ -41,7 +40,7 @@
         color: #838383;
       }
     }
-    input {
+    & input {
         height: inherit;
         border: none;
         overflow: hidden;
@@ -50,7 +49,7 @@
         border-right: 1px solid #e6e6e6;
         outline: none;
     }
-    button:last-child {
+    & button:last-child {
       border: none;
       height: inherit;
       background: none;
@@ -94,7 +93,7 @@
   justify-content: center;
   align-items: center;
 
-  a {
+  & a {
     text-transform: uppercase;
     text-decoration: none;
     color: #222222;
