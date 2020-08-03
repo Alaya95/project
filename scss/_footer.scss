@@ -39,23 +39,27 @@
   }
 }
 
-
-.footerBG {
-  height: 79px;
+.footer__bottom {
   background-color: #e6e6e6;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  p {
-    width: 260px;
-    height: 14px;
-    color: #7a7a7a;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 42px;
-    letter-spacing: 0.4px;
+
+  .footerBG {
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    p {
+      width: 260px;
+      height: 14px;
+      color: #7a7a7a;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 42px;
+      letter-spacing: 0.4px;
+    }
   }
+
 }
+
 
 
 .footerBG-link{

@@ -124,20 +124,21 @@
     color: #f16d7f;
     font-weight: 700; }
 
-.footerBG {
-  height: 79px;
-  background-color: #e6e6e6;
-  display: flex;
-  justify-content: space-between;
-  align-content: center; }
-  .footerBG p {
-    width: 260px;
-    height: 14px;
-    color: #7a7a7a;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 42px;
-    letter-spacing: 0.4px; }
+.footer__bottom {
+  background-color: #e6e6e6; }
+  .footer__bottom .footerBG {
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center; }
+    .footer__bottom .footerBG p {
+      width: 260px;
+      height: 14px;
+      color: #7a7a7a;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 42px;
+      letter-spacing: 0.4px; }
 
 .footerBG-link {
   width: 260px;
@@ -164,19 +165,18 @@
   min-width: 1140px;
   background: url(../img/Layer_41.png) no-repeat, #ccc;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   background-blend-mode: overlay;
   margin-bottom: 50px; }
-
-.subscribe {
-  height: 440px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 100px; }
-  .subscribe .line {
-    height: inherit;
-    border-right: 2px solid #fff; }
+  .subscribeBG .subscribe {
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px; }
+    .subscribeBG .subscribe .line {
+      height: inherit;
+      border-right: 2px solid #fff; }
 
 .subscribe__block {
   width: 569px;
@@ -247,36 +247,37 @@
     .subscribeForm button:hover {
       box-shadow: 0 0 10px #ef5b70; }
 
-.breadCrumb {
-  height: 150px;
-  background: #f8f3f4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 90px; }
-  .breadCrumb .newArrival {
-    width: 176px;
-    color: #f16d7f;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 20px;
-    text-transform: uppercase;
-    padding-left: 10px; }
-  .breadCrumb .breadCrumbLink {
-    width: 220px;
-    height: 11px;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: uppercase; }
-    .breadCrumb .breadCrumbLink a {
-      color: #636363;
-      text-decoration: none;
-      margin-left: 5px; }
-    .breadCrumb .breadCrumbLink a:last-child {
+.breadCrumbBG {
+  background: #f8f3f4; }
+  .breadCrumbBG .breadCrumb {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 90px; }
+    .breadCrumbBG .breadCrumb .newArrival {
+      width: 176px;
       color: #f16d7f;
-      font-weight: 700; }
-    .breadCrumb .breadCrumbLink a:hover {
-      color: #f16d7f; }
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 20px;
+      text-transform: uppercase;
+      padding-left: 10px; }
+    .breadCrumbBG .breadCrumb .breadCrumbLink {
+      width: 220px;
+      height: 11px;
+      font-size: 14px;
+      line-height: 20px;
+      text-transform: uppercase; }
+      .breadCrumbBG .breadCrumb .breadCrumbLink a {
+        color: #636363;
+        text-decoration: none;
+        margin-left: 5px; }
+      .breadCrumbBG .breadCrumb .breadCrumbLink a:last-child {
+        color: #f16d7f;
+        font-weight: 700; }
+      .breadCrumbBG .breadCrumb .breadCrumbLink a:hover {
+        color: #f16d7f; }
 
 body {
   margin: 0;

@@ -3,21 +3,19 @@
   min-width: 1140px;
   background: url(../img/Layer_41.png) no-repeat, #ccc;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   background-blend-mode: overlay;
   margin-bottom: 50px;
-}
-
-
-.subscribe {
-  height: 440px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 100px;
-  .line {
-    height: inherit;
-    border-right: 2px solid #fff;
+  .subscribe {
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+    .line {
+      height: inherit;
+      border-right: 2px solid #fff;
+    }
   }
 }
 
