@@ -117,6 +117,7 @@ body {
     background-color: #ffffff;
     font-size: 14px;
     text-align: center;
+    outline: none;
     &[type="number"]::-webkit-outer-spin-button,
     &[type="number"]::-webkit-inner-spin-button {
         -webkit-appearance: none;
@@ -300,7 +301,7 @@ body {
 
 .subscribeBG {
   min-width: 1140px;
-  background: url(../img/Layer_41.png) no-repeat, #ccc;
+  background: url(../src/assets/imgs/Layer_41.png) no-repeat, #ccc;
   background-size: cover;
   background-blend-mode: overlay;
 }

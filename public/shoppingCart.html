@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title></title>
 
-
-    <link rel="stylesheet" href="css/singlepage.css">
+    <link rel="stylesheet" href="../src/layout/styles/css/cartStyle.css">
     <script src="https://kit.fontawesome.com/861689887d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="header container">
         <a href="index.html" class="logo">Bran<span>d</span></a>
@@ -18,10 +18,11 @@
             <button><i class="fas fa-search"></i></button>
         </form>
 
-        <img src="img/cart.png" alt="cart" class="header__cart">
+        <img src="../src/assets/imgs/cart.png" alt="cart" class="header__cart">
         <button name="accountBar" class="header__account-bar">My Account <i class="fas fa-caret-down"></i></button>
     </div>
     <div class="headerLine"></div>
+
     <nav class="topNav container">
         <a href="index.html">Home</a>
         <a href="#">Man</a>
@@ -31,6 +32,7 @@
         <a href="#">Featured</a>
         <a href="#">Hot Deals</a>
     </nav>
+
     <div class="breadCrumbBG">
         <div class="breadCrumb container">
             <div class="newArrival">New arrival</div>
@@ -42,136 +44,193 @@
         </div>
     </div>
 
-    
+
+
+    <div class="shoppingCart container">
+        <div class="cartbox">
 
 
 
-    <div class="carousel container">
-        <div class="carousel__img">
-            <button><i class="fas fa-chevron-left"></i></button>
-                <img src="img/Layer_42.png" alt="slider-img">
-            <button><i class="fas fa-chevron-right"></i></button>
-        </div>
-    </div>
+
+            <div class="cartProductTop">
+                <div class="cartTopDetailes">Product Detailes</div>
+                <div class="cartTopPrice">Unite Price</div>
+                <div class="cartTopQuantility">Quantity</div>
+                <div class="cartTopShipping">Shopping</div>
+                <div class="cartTopSubtotal">Subtotal</div>
+                <div class="cartTopProductDetailes">Action</div>
+            </div>
+            
+
+            <div class="cartProduct">
 
 
-    <div class="product container">
-        <div class="product__description">
-            <div class="devider">
-                Women collection
-                <div class="deviderBlock">
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
+                <div class="cartDetailes">
+                    <div class="detailesImage">
+                        <img src="img/Layer_43.jpg" alt="men T-shirt">
+                    </div>
+
+                    <div class="detailesDescription">
+                        <a href="#">Mango People T-shirt</a>
+                        <p>Color: red</p>
+                        <p>Size: XLL</p>
+                    </div>
+
+                </div>
+
+
+                <div class="cartPrice">
+                    $150
+                </div>
+
+                <div class="cartQuantility">
+                    <input type="number" value="1" >
+                </div>
+
+
+                <div class="cartShipping">
+                    free
+                </div>
+
+                <div class="cartSubtotal">
+                    $300
+                </div>
+
+                <div class="cartProductDetailes">
+                    <button><i class="fas fa-times-circle"></i></button>
                 </div>
             </div>
-                <h3>Mochino cheap and chic</h3>
-                <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
-                <div class="descriptionMaterial">
-                    <p>Material: <span>Cotton</span></p>
-                    <p>Designer: <span>Binburhan</span></p>
+
+            <div class="cartLine"></div>
+
+
+            <div class="cartProduct">
+
+
+                <div class="cartDetailes">
+                    <div class="detailesImage">
+                        <img src="img/Layer_44.jpg" alt="men T-shirt">
+                    </div>
+
+                    <div class="detailesDescription">
+                        <a href="#">Mango People T-shirt</a>
+                        <p>Color: red</p>
+                        <p>Size: XLL</p>
+                    </div>
+
                 </div>
-                <h4>$561</h4>
+
+
+                <div class="cartPrice">
+                    $150
+                </div>
+
+                <div class="cartQuantility">
+                    <input type="number" value="1" >
+                </div>
+
+
+                <div class="cartShipping">
+                    free
+                </div>
+
+                <div class="cartSubtotal">
+                    $300
+                </div>
+
+                <div class="cartProductDetailes">
+                    <button><i class="fas fa-times-circle"></i></button>
+                </div>
+            </div>
+
+            <div class="cartLine"></div>
+
+
+            <div class="cartProduct">
+
+
+                <div class="cartDetailes">
+                    <div class="detailesImage">
+                        <img src="../src/assets/imgs/Layer_45.jpg" alt="men T-shirt">
+                    </div>
+
+                    <div class="detailesDescription">
+                        <a href="#">Mango People T-shirt</a>
+                        <p>Color: red</p>
+                        <p>Size: XLL</p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="cartPrice">
+                    $150
+                </div>
+
+                <div class="cartQuantility">
+                    <input type="number" value="1" >
+                </div>
+
+
+                <div class="cartShipping">
+                    free
+                </div>
+
+                <div class="cartSubtotal">
+                    $300
+                </div>
+
+                <div class="cartProductDetailes">
+                    <button><i class="fas fa-times-circle"></i></button>
+                </div>
+            </div>
+
+
+
+
+            <div class="cartLine"></div>
+
         </div>
 
-        <div class="product__line"></div>
-        <form class="product__form">
-            <div class="choose">
-                <p>Choose color</p>
-                <input type="color" list="colorList" id="colors" value="#ef5b70" size="12px">
-                <datalist id="colorList">
-                    <option value="#ef5b70" label="red">
-                    <option value="#222222" label="black">
-                    <option value="#" label="">
-                    <option value="" label="">
+        <div class="cartButton container">
+            <button>Clear shopping cart</button>
+            <button>Continue shopping</button>
+        </div>
+
+
+        <div class="cartForm container">
+
+            <div class="shippingAdress">
+                <div class="cartFormText">Shipping Adress</div>
+                <input id="town" list="towns"  type="text" placeholder="Bangladesh">
+
+                <datalist id="towns">
+                    <option value="Gaurnadi">
+                    <option value="Madaripur">
+                    <option value="Barisal">
+                    <option value="Bangladesh">
                 </datalist>
+
+                <input  type="text" placeholder="State">
+                <input  type="number" placeholder="Postcode / Zip">
+                <button class="cartFormButton">get a quote</button>
             </div>
 
-            <div class="choose">
-                <p>Choose size</p>
-                <input type="text" list="sizeList" id="sizes" placeholder="XXL">
-                <datalist id="sizeList">
-                    <option value="XS">
-                    <option value="S">
-                    <option value="M">
-                    <option value="L">
-                    <option value="XL">
-                    <option value="XXL">
-                </datalist>
-            </div>
-            <div class="choose">
-                <p>Quantity</p>
-                <input type="number" placeholder="2">
-            </div>
-        </form>
-        <button >
-            <img src="img/cart3.png" alt="cart"> Add to Cart
-        </button>
-    </div>
+            <div class="couponDiscount">
+                <div class="cartFormText">Coupon discount</div>
+                <div class="couponTextEnter">Enter your coupon code if you have one</div>
 
-    <div class="similar container">
-        <div class="similar__text">
-            <h2>You may like also</h2>
-        </div>
-        <div class="similar__catalog">
-            <div class="item">
-                <div class="item__photo">
-                    <div class="itemPhotoHover">
-                        <button>
-                            <img src="img/cart2.png" alt="img">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <img src="img/Layer_44.png" alt="item-photo">
-                </div>
-                <div class="item__description">
-                    <h3>Blaze leggings</h3>
-                    <p>$52.00</p>
-                </div>
+                <input class="cartFormInput" type="text" placeholder="State">
+
+                <button class="cartFormButton">Apply coupon</button>
             </div>
-            <div class="item">
-                <div class="item__photo">
-                    <div class="itemPhotoHover">
-                        <button>
-                            <img src="img/cart2.png" alt="img">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <img src="img/Layer_45.png" alt="item-photo">
-                </div>
-                <div class="item__description">
-                    <h3>Alexa sweater</h3>
-                    <p>$52.00</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item__photo">
-                    <div class="itemPhotoHover">
-                        <button>
-                            <img src="img/cart2.png" alt="img">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <img src="img/Layer_46.png" alt="item-photo">
-                </div>
-                <div class="item__description">
-                    <h3>Agnes top</h3>
-                    <p>$52.00</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item__photo">
-                    <div class="itemPhotoHover">
-                        <button>
-                            <img src="img/cart2.png" alt="img">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <img src="img/Layer_47.png" alt="item-photo">
-                </div>
-                <div class="item__description">
-                    <h3>Sulva sweater</h3>
-                    <p>$52.00</p>
+            <div class="check">
+                <div class="checkOut">
+                    <div class="checkOutSub">Sub total <span>$900</span></div>
+                    <div class="checkOutTotal">GRAND TOTAL <span>$900</span></div>
+                    <div class="line"></div>
+                    <button>Proceed to checkout</button>
                 </div>
             </div>
         </div>
@@ -180,7 +239,7 @@
     <div class="subscribeBG">
         <div class="subscribe container">
             <div class="subscribe__block">
-                <img src="img/Layer_40.png" alt="photo">
+                <img src="../src/assets/imgs/Layer_40.png" alt="photo">
                 <div class="subscribe__block-text">
                     <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
                     <p>Bin Burhan <br><span>Dhaka, Bd</span></p>
@@ -200,6 +259,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="footer container">
         <div class="footer__top">
@@ -251,5 +311,7 @@
         </div>
     </div>
 
+
 </body>
+
 </html>

@@ -24,7 +24,8 @@ body {
 .banner-content {
   margin: auto;
   height: inherit;
-  background: url(../img/topHeaderBack1.png) no-repeat, #e8e8e8;
+  background: url(../../../assets/imgs/logo.png);
+  background: url(../../../assets/imgs/topHeaderBack1.png) no-repeat, #e8e8e8;
   background-position: right;
   background-size: contain;
   display: flex;
@@ -78,19 +79,19 @@ body {
   position: relative;
   &:nth-child(1) {
     height: 542px;
-    background: url(../img/offer1.jpg) no-repeat;
+    background: url(../../../assets/imgs/offer1.jpg) no-repeat;
   }
   &:nth-child(2) {
     height: 260px;
-    background: url(../img/offer2.jpg) no-repeat;
+    background: url(../../../assets/imgs/offer2.jpg) no-repeat;
   }
   &:nth-child(3) {
     height: 260px;
-    background: url(../img/offer3.jpg) no-repeat;
+    background: url(../../../assets/imgs/offer3.jpg) no-repeat;
   }
   &:nth-child(4) {
     height: 542px;
-    background: url(../img/offer4.jpg) no-repeat;
+    background: url(../../../assets/imgs/offer4.jpg) no-repeat;
   }
 
 }
@@ -246,7 +247,7 @@ body {
     &__sale {
       height: inherit;
       width: 767px;
-      background: url(../img/Layer_38.png) no-repeat;
+      background: url(../../../assets/imgs/Layer_38.png) no-repeat;
       position: relative;
       &-text {
         width: 301px;
