@@ -30,7 +30,7 @@
   border: 1px solid #e6e6e6;
   overflow: hidden;
   font-size: 14px;
-    .search__browse {
+    &__browse {
       padding: 14px;
       background-color: #f6f6f6;
       line-height: 38px;
@@ -111,18 +111,8 @@
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-
-      &p{
-
-      }
-      &span{
-
-      }
     }
   }
-
-
-
 }
 
 .header__account-bar {
@@ -139,10 +129,10 @@
     box-shadow: 0 0 10px $colorButtonBG;
   }
 }
+
 .headerLine {
   border-bottom: 1px solid #ececec;
 }
-
 
 .topNav {
   height: 51px;
@@ -151,7 +141,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  .topNavBlock{
+  &Block{
     margin-right: 30px;
     & a {
       text-transform: uppercase;
@@ -165,9 +155,6 @@
       &:not(:last-child) {
         margin-right: 46px;
       }
-      
     }
   }
-
-
 }

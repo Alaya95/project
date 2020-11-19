@@ -14,17 +14,13 @@ body {
   margin: auto;
 }
 
-
-
 .topBanner {
   height: 614px;
   background-color: #e8e8e8;
 }
-
 .banner-content {
   margin: auto;
   height: inherit;
-  background: url(../../../assets/imgs/logo.png);
   background: url(../../../assets/imgs/topHeaderBack1.png) no-repeat, #e8e8e8;
   background-position: right;
   background-size: contain;
@@ -37,7 +33,6 @@ body {
     margin-right: 14px;
     margin-left: 2px;
   }
-
 }
 
 
@@ -61,7 +56,6 @@ body {
         }
      }
 }
-
 
 .category {
   height: 820px;
@@ -237,8 +231,6 @@ body {
 
 }
 
-
-
   .feature {
     height: 530px;
     display: flex;
@@ -289,6 +281,7 @@ body {
         & img{
           object-fit: contain;
         }
+
         .feature__box-text {
           width: 219px;
           & p {
@@ -308,7 +301,7 @@ body {
         }
       }
     }
-  }
+}
 
 
 

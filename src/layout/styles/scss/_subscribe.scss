@@ -1,23 +1,27 @@
 @import "variables";
 .subscribeBG {
   min-width: 1140px;
-  background: url(../src/assets/imgs/Layer_41.png) no-repeat, #ccc;
+  background: url(../../../assets/imgs/Layer_41.png) no-repeat, #ccc;
   background-position: center;
   background-size: cover;
   background-blend-mode: overlay;
   margin-bottom: 50px;
+
   .subscribe {
     height: 440px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 100px;
+
     .line {
       height: inherit;
       border-right: 2px solid #fff;
     }
   }
+
 }
+
 
 .subscribe__block {
   width: 569px;
@@ -27,6 +31,8 @@
     object-fit: contain;
     margin-right: 28px;
   }
+
+
   & p{
     width: 386px;
     color: #222224;
@@ -35,6 +41,7 @@
     text-align: left;
     font-style: italic;
   }
+
   & p:last-child {
     width: 82px;
     height: 27px;
@@ -99,7 +106,6 @@
       box-shadow: 0 0 10px $colorButtonBGHover;
     }
   }
-
 }
 
 
