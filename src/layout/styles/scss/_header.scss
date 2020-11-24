@@ -101,6 +101,10 @@
     border: none;
     outline: none;
 
+    &:hover{
+      cursor: pointer;
+    }
+
     & img {
       margin: 0 auto;
       padding: 5px;
@@ -144,6 +148,9 @@
 
   &:hover {
     box-shadow: 0 0 10px $colorButtonBG;
+  }
+  &:active {
+    background-color: #ef5b70;
   }
 }
 

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,15 +23,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eef69332-8140-4415-80f5-390b3277e6f6" name="Default Changelist" comment="компиляция стилий">
-      <change beforePath="$PROJECT_DIR$/src/layout/styles/css/cartStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/styles/css/checkout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/styles/css/product.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/styles/css/singlepage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/styles/css/styles.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/styles/scss/items.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/shoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/shoppingCart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/singlepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/singlepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/imgs/Layer 41@1X.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/imgs/Layer_41@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/imgs/Layer_44(1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/Layer_44.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/imgs/Layer_45 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/imgs/Layer_46 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/styles/css/cartStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/css/cartStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/styles/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/css/checkout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/styles/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/css/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/styles/css/singlepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/css/singlepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/styles/scss/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/scss/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/styles/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/scss/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/styles/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/scss/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/styles/scss/_subscribe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/scss/_subscribe.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/styles/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/styles/scss/cartStyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/scss/cartStyle.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/styles/scss/product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/scss/product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/styles/scss/singlepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/scss/singlepage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/styles/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/styles/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +59,21 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1kUJ4z45AVX523waKdJPy5TklCb" />
   <component name="ProjectViewState">
@@ -52,7 +85,19 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +110,14 @@
       <updated>1605749049996</updated>
       <workItem from="1605749051180" duration="662000" />
       <workItem from="1605749744839" duration="1171000" />
-      <workItem from="1605751028893" duration="165000" />
+      <workItem from="1605751028893" duration="1699000" />
+      <workItem from="1605801897870" duration="6131000" />
+      <workItem from="1605844077923" duration="5029000" />
+      <workItem from="1605933531684" duration="1819000" />
+      <workItem from="1606154120799" duration="2540000" />
+      <workItem from="1606193642559" duration="165000" />
+      <workItem from="1606193822822" duration="103000" />
+      <workItem from="1606193940103" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="компиляция стилий">
       <created>1605750612518</created>
@@ -74,7 +126,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605750612518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="настройка компилятора">
+      <created>1605751246687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605751246687</updated>
+    </task>
+    <task id="LOCAL-00003" summary="настройка компилятора">
+      <created>1605751262831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605751262831</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add nav dropdown">
+      <created>1605845827128</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605845827128</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,9 +167,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="компиляция стилий" />
-    <option name="LAST_COMMIT_MESSAGE" value="компиляция стилий" />
+    <MESSAGE value="настройка компилятора" />
+    <MESSAGE value="add nav dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="add nav dropdown" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="588" y="397" key="#Chrome_Settings" timestamp="1605810175794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="588" y="397" key="#Chrome_Settings/0.0.1920.1040/-1680.20.1680.1010@0.0.1920.1040" timestamp="1605810175794" />
     <state x="715" y="343" key="#Notifications" timestamp="1605750796694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -105,6 +184,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="309" key="#Web_Browsers/0.0.1920.1040/-1680.20.1680.1010@0.0.1920.1040" timestamp="1605749086320" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605811686828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.20.1680.1010@0.0.1920.1040" timestamp="1605811686828" />
     <state x="36" y="246" width="1037" height="591" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605750851166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -113,17 +196,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1680.20.1680.1010@0.0.1920.1040" timestamp="1605750696442" />
-    <state x="465" y="286" width="941" height="679" key="EditFileWatcherDialog" timestamp="1605751192897">
+    <state x="465" y="286" width="941" height="679" key="EditFileWatcherDialog" timestamp="1606194442713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="465" y="286" width="941" height="679" key="EditFileWatcherDialog/0.0.1920.1040/-1680.20.1680.1010@0.0.1920.1040" timestamp="1605751192897" />
-    <state x="715" y="380" key="FileChooserDialogImpl" timestamp="1605750898714">
+    <state x="465" y="286" width="941" height="679" key="EditFileWatcherDialog/0.0.1920.1040/-1680.20.1680.1010@0.0.1920.1040" timestamp="1606194442713" />
+    <state x="715" y="380" key="FileChooserDialogImpl" timestamp="1605845268674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="715" y="380" key="FileChooserDialogImpl/0.0.1920.1040/-1680.20.1680.1010@0.0.1920.1040" timestamp="1605750898714" />
-    <state x="298" y="153" key="SettingsEditor" timestamp="1605751194805">
+    <state x="715" y="380" key="FileChooserDialogImpl/0.0.1920.1040/-1680.20.1680.1010@0.0.1920.1040" timestamp="1605845268674" />
+    <state x="230" y="113" width="1392" height="828" key="SettingsEditor" timestamp="1606195442262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="298" y="153" key="SettingsEditor/0.0.1920.1040/-1680.20.1680.1010@0.0.1920.1040" timestamp="1605751194805" />
+    <state x="230" y="113" width="1392" height="828" key="SettingsEditor/0.0.1920.1040/-1680.20.1680.1010@0.0.1920.1040" timestamp="1606195442262" />
+    <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1605811678145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040/-1680.20.1680.1010@0.0.1920.1040" timestamp="1605811678145" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="project" type="b2602c69:ProjectViewProjectNode" />
+        <item name="project" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>

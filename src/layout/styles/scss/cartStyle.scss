@@ -14,9 +14,6 @@ body {
   margin: auto;
 }
 
-.shoppingCart {}
-
-.cartbox {}
 
 .cartProductTop {
   height: 115px;
@@ -301,7 +298,7 @@ body {
 
 .subscribeBG {
   min-width: 1140px;
-  background: url(../src/assets/imgs/Layer_41.png) no-repeat, #ccc;
+  background: url(../../../assets/imgs/Layer_41.png) no-repeat, #ccc;
   background-size: cover;
   background-blend-mode: overlay;
 }
@@ -322,11 +319,13 @@ body {
   width: 569px;
   display: flex;
   align-items: flex-start;
+
   & img {
     object-fit: contain;
     margin-right: 28px;
   }
-  & p{
+
+  & p {
     width: 386px;
     color: #222224;
     font-size: 16px;

@@ -77,10 +77,13 @@
     background: none;
     border: none;
     outline: none; }
+    .header__cart button:hover {
+      cursor: pointer; }
     .header__cart button img {
       margin: 0 auto;
       padding: 5px; }
   .header__cartProduct {
+    display: none;
     position: absolute;
     max-width: 205px;
     min-width: 205px;
@@ -109,6 +112,8 @@
   border: none; }
   .header__account-bar:hover {
     box-shadow: 0 0 10px #f16d7f; }
+  .header__account-bar:active {
+    background-color: #ef5b70; }
 
 .headerLine {
   border-bottom: 1px solid #ececec; }
@@ -119,19 +124,56 @@
   font-size: 14px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
   .topNavBlock {
-    margin-right: 30px; }
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+    padding-bottom: 10px; }
     .topNavBlock a {
-      text-transform: uppercase;
       text-decoration: none;
-      color: #222222;
-      padding-bottom: 10px; }
-      .topNavBlock a:hover {
-        padding-bottom: 7px;
-        border-bottom: 3px solid #f16d7f; }
-      .topNavBlock a:not(:last-child) {
-        margin-right: 46px; }
+      color: #222222; }
+    .topNavBlock:hover {
+      padding-bottom: 7px;
+      border-bottom: 3px solid #f16d7f; }
+    .topNavBlock:not(:last-child) {
+      margin-right: 46px; }
+  .topNavDropdown {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    top: 45px;
+    right: 0; }
+    .topNavDropdownBlock {
+      width: 820px;
+      height: 310px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: space-around;
+      justify-content: space-around; }
+      .topNavDropdownBlock img {
+        width: 255px;
+        height: 118px; }
+      .topNavDropdownBlock a {
+        font-size: 14px;
+        line-height: 28px;
+        font-weight: 400;
+        letter-spacing: 0.025em;
+        color: #646464;
+        text-decoration: none; }
+        .topNavDropdownBlock a:hover {
+          color: #f16d7f; }
+      .topNavDropdownBlockCategory {
+        line-height: 32px !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+        color: #222222;
+        border-bottom: 1px solid black;
+        margin: 5px 0; }
 
 .footer {
   height: 430px; }
@@ -173,7 +215,8 @@
     height: 79px;
     display: flex;
     justify-content: space-between;
-    align-content: center; }
+    align-content: center;
+    background: #e6e6e6; }
     .footer__bottom .footerBG p {
       width: 260px;
       height: 14px;
@@ -182,32 +225,29 @@
       font-weight: 400;
       line-height: 42px;
       letter-spacing: 0.4px; }
-
-.footerBG-link {
-  width: 260px;
-  height: 79px;
-  font-size: 16px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
-.social-link {
-  width: 32px;
-  height: 32px;
-  background-color: #ffffff;
-  text-align: center; }
-  .social-link :hover {
-    background: #f16d7f; }
-  .social-link i {
-    color: #c2c2c2;
-    padding: 8px; }
-  .social-link i:hover {
-    color: #fff; }
+    .footer__bottom .footerBGLink {
+      width: 260px;
+      height: 79px;
+      font-size: 16px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .footer__bottom .footerBGLink .socialLink {
+        width: 32px;
+        height: 32px;
+        background-color: #ffffff;
+        text-align: center; }
+        .footer__bottom .footerBGLink .socialLink:hover {
+          background: #f16d7f; }
+        .footer__bottom .footerBGLink .socialLink i {
+          color: #c2c2c2;
+          padding: 8px; }
+        .footer__bottom .footerBGLink .socialLink i:hover {
+          color: #fff; }
 
 .subscribeBG {
   min-width: 1140px;
-  background: url(../../../assets/imgs/Layer_41.png) no-repeat, #ccc;
-  background-position: center;
+  background: #ccc url(../../../assets/imgs/Layer_41.png) no-repeat center;
   background-size: cover;
   background-blend-mode: overlay;
   margin-bottom: 50px; }
@@ -279,6 +319,8 @@
     outline: none;
     border: none;
     border-radius: 23px 0 0 23px; }
+    .subscribeForm input:focus {
+      background-color: #d6d6d5; }
   .subscribeForm button {
     width: 104px;
     height: 46px;
@@ -288,38 +330,42 @@
     border: none;
     border-radius: 0 23px 23px 0; }
     .subscribeForm button:hover {
-      box-shadow: 0 0 10px #ef5b70; }
+      box-shadow: 0 0 10px #ef5b70;
+      cursor: pointer; }
+    .subscribeForm button:active {
+      background-color: #ef5b70; }
 
 .breadCrumbBG {
-  background: #f8f3f4; }
-  .breadCrumbBG .breadCrumb {
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 90px; }
-    .breadCrumbBG .breadCrumb .newArrival {
-      width: 176px;
-      color: #f16d7f;
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 20px;
-      text-transform: uppercase;
-      padding-left: 10px; }
-    .breadCrumbBG .breadCrumbLink {
-      width: 220px;
-      height: 11px;
-      font-size: 14px;
-      line-height: 20px;
-      text-transform: uppercase; }
-      .breadCrumbBG .breadCrumbLink a {
-        color: #636363;
-        text-decoration: none;
-        margin-left: 5px; }
-      .breadCrumbBG .breadCrumbLink a:last-child {
+  background: 100% #f8f3f4; }
+
+.breadCrumb {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px; }
+  .breadCrumb .newArrival {
+    width: 176px;
+    color: #f16d7f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-left: 10px; }
+  .breadCrumbLink {
+    width: 220px;
+    height: 11px;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase; }
+    .breadCrumbLink a {
+      color: #636363;
+      text-decoration: none;
+      margin-left: 5px; }
+      .breadCrumbLink a:last-child {
         color: #f16d7f;
         font-weight: 700; }
-      .breadCrumbBG .breadCrumbLink a:hover {
+      .breadCrumbLink a:hover {
         color: #f16d7f; }
 
 body {
@@ -554,7 +600,7 @@ body {
 
 .subscribeBG {
   min-width: 1140px;
-  background: url(../src/assets/imgs/Layer_41.png) no-repeat, #ccc;
+  background: url(../../../assets/imgs/Layer_41.png) no-repeat, #ccc;
   background-size: cover;
   background-blend-mode: overlay; }
 

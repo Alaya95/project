@@ -1,8 +1,7 @@
 @import "variables";
 .subscribeBG {
   min-width: 1140px;
-  background: url(../../../assets/imgs/Layer_41.png) no-repeat, #ccc;
-  background-position: center;
+  background: #ccc url(../../../assets/imgs/Layer_41.png) no-repeat center;
   background-size: cover;
   background-blend-mode: overlay;
   margin-bottom: 50px;
@@ -93,6 +92,9 @@
     outline: none;
     border: none;
     border-radius: 23px 0 0 23px;
+    &:focus {
+      background-color: #d6d6d5;
+    }
   }
   button {
     width: 104px;
@@ -104,6 +106,10 @@
     border-radius: 0 23px 23px 0;
     &:hover {
       box-shadow: 0 0 10px $colorButtonBGHover;
+      cursor: pointer;
+    }
+    &:active {
+      background-color: #ef5b70;
     }
   }
 }
