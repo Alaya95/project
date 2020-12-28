@@ -124,14 +124,6 @@ body {
 }
 
 
-.item:hover .itemImgHover {
-  height: inherit;
-  width: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .itemText {
   padding: 20px;
 
@@ -210,6 +202,7 @@ body {
   margin-top: 65px;
 }
 
+
 .item {
   display: flex;
   flex-direction: column;
@@ -241,6 +234,8 @@ body {
       background: rgba(0, 0, 0, 0.7);
 
       & button {
+        width: 138px;
+        height: 56px;
         padding: 16px;
         border: 1px solid #ffffff;
         background: none;
@@ -252,7 +247,7 @@ body {
         align-items: center;
         cursor: pointer;
         outline: none;
-
+        margin: 10px;
         &:hover {
           box-shadow: 0 0 10px $colorProductHover;
         }
@@ -267,6 +262,15 @@ body {
   }
 }
 
+
+.item:hover .itemImgHover {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .feature {
   height: 530px;

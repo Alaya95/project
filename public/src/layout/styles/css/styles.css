@@ -449,13 +449,6 @@ body {
         margin: 0;
         color: #f16d7f; }
 
-.item:hover .itemImgHover {
-  height: inherit;
-  width: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 .itemText {
   padding: 20px; }
   .itemText a {
@@ -538,6 +531,8 @@ body {
       color: #ffffff;
       background: rgba(0, 0, 0, 0.7); }
       .item .itemImgHover button {
+        width: 138px;
+        height: 56px;
         padding: 16px;
         border: 1px solid #ffffff;
         background: none;
@@ -548,13 +543,22 @@ body {
         justify-content: center;
         align-items: center;
         cursor: pointer;
-        outline: none; }
+        outline: none;
+        margin: 10px; }
         .item .itemImgHover button:hover {
           box-shadow: 0 0 10px #ffffff; }
         .item .itemImgHover button img {
           height: 22px;
           width: 23px;
           margin-right: 10px; }
+
+.item:hover .itemImgHover {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .feature {
   height: 530px;

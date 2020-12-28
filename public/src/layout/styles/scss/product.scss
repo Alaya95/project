@@ -233,10 +233,12 @@ body {
           display: none;
           color: #ffffff;
           background: rgba(0, 0, 0, 0.7);
-
           & button {
             padding: 15px;
             border: 1px solid #ffffff;
+            width: 138px;
+            height: 56px;
+            margin: 10px;
             background: none;
             color: white;
             font-size: 13px;
@@ -262,6 +264,7 @@ body {
     height: inherit;
     width: inherit;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
