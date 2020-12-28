@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>THE BRAND</title>
-    <link rel="stylesheet" href="../src/layout/styles/css/styles.css">
+    <link rel="stylesheet" href="src/layout/styles/css/styles.css">
     <script src="https://kit.fontawesome.com/861689887d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -47,7 +47,7 @@
     </form>
 
     <div class="header__cart">
-        <button id="cartButton"><img src="../src/assets/imgs/cart.png" alt="cart"></button>
+        <button id="cartButton"><img src="src/assets/imgs/cart.png" alt="cart"></button>
 
         <div class="header__cartProduct">
             <div class="header__cartProductAdd">
@@ -451,16 +451,21 @@
         <p>Shop for items based on what we featured in this week</p>
     </div>
     <div class="product-item">
+
+        <?php
+        include "phpConnect/createItem.php";
+        ?>
+        <!--
         <div class="item">
             <div class="itemImg">
                 <div class="itemImgHover">
                     <button>
-                        <img src="../src/assets/imgs/cart2.png" alt="img">
+                        <img src="src/assets/imgs/cart2.png" alt="img">
                         Add to Cart
                     </button>
 
                 </div>
-                <img src="../src/assets/imgs/Layer_2.jpg" alt="img">
+                <img src="src/assets/imgs/Layer_2.jpg" alt="img">
             </div>
             <div class="itemText">
                 <a href="#">Mango people t-shirt</a>
@@ -471,12 +476,12 @@
             <div class="itemImg">
                 <div class="itemImgHover">
                     <button>
-                        <img src="../src/assets/imgs/cart2.png" alt="img">
+                        <img src="src/assets/imgs/cart2.png" alt="img">
                         Add to Cart
                     </button>
 
                 </div>
-                <img src="../src/assets/imgs/Layer_3.jpg" alt="img">
+                <img src="src/assets/imgs/Layer_3.jpg" alt="img">
             </div>
             <div class="itemText">
                 <a href="#">Mango people t-shirt</a>
@@ -487,12 +492,12 @@
             <div class="itemImg">
                 <div class="itemImgHover">
                     <button>
-                        <img src="../src/assets/imgs/cart2.png" alt="img">
+                        <img src="src/assets/imgs/cart2.png" alt="img">
                         Add to Cart
                     </button>
 
                 </div>
-                <img src="../src/assets/imgs/Layer_4.jpg" alt="img1">
+                <img src="src/assets/imgs/Layer_4.jpg" alt="img1">
             </div>
             <div class="itemText">
                 <a href="#">Mango people t-shirt</a>
@@ -503,12 +508,12 @@
             <div class="itemImg">
                 <div class="itemImgHover">
                     <button>
-                        <img src="../src/assets/imgs/cart2.png" alt="img">
+                        <img src="src/assets/imgs/cart2.png" alt="img">
                         Add to Cart
                     </button>
 
                 </div>
-                <img src="../src/assets/imgs/Layer_5.jpg" alt="img1">
+                <img src="src/assets/imgs/Layer_5.jpg" alt="img1">
             </div>
             <div class="itemText">
                 <a href="#">Mango people t-shirt</a>
@@ -519,12 +524,12 @@
             <div class="itemImg">
                 <div class="itemImgHover">
                     <button>
-                        <img src="../src/assets/imgs/cart2.png" alt="img">
+                        <img src="src/assets/imgs/cart2.png" alt="img">
                         Add to Cart
                     </button>
 
                 </div>
-                <img src="../src/assets/imgs/Layer_6.jpg" alt="img">
+                <img src="src/assets/imgs/Layer_6.jpg" alt="img">
             </div>
             <div class="itemText">
                 <a href="#">Mango people t-shirt</a>
@@ -535,12 +540,12 @@
             <div class="itemImg">
                 <div class="itemImgHover">
                     <button>
-                        <img src="../src/assets/imgs/cart2.png" alt="img">
+                        <img src="src/assets/imgs/cart2.png" alt="img">
                         Add to Cart
                     </button>
 
                 </div>
-                <img src="../src/assets/imgs/Layer_7.jpg" alt="img">
+                <img src="src/assets/imgs/Layer_7.jpg" alt="img">
             </div>
             <div class="itemText">
                 <a href="#">Mango people t-shirt</a>
@@ -551,12 +556,12 @@
             <div class="itemImg">
                 <div class="itemImgHover">
                     <button>
-                        <img src="../src/assets/imgs/cart2.png" alt="img">
+                        <img src="src/assets/imgs/cart2.png" alt="img">
                         Add to Cart
                     </button>
 
                 </div>
-                <img src="../src/assets/imgs/Layer_8.jpg" alt="img">
+                <img src="src/assets/imgs/Layer_8.jpg" alt="img">
             </div>
             <div class="itemText">
                 <a href="#">Mango people t-shirt</a>
@@ -567,19 +572,19 @@
             <div class="itemImg">
                 <div class="itemImgHover">
                     <button>
-                        <img src="../src/assets/imgs/cart2.png" alt="img">
+                        <img src="src/assets/imgs/cart2.png" alt="img">
                         Add to Cart
                     </button>
 
                 </div>
-                <img src="../src/assets/imgs/Layer_9.jpg" alt="img">
+                <img src="src/assets/imgs/Layer_9.jpg" alt="img">
             </div>
             <div class="itemText">
                 <a href="#">Mango people t-shirt</a>
                 <p>$52.00</p>
             </div>
         </div>
-
+        -->
     </div>
     <button name="browseAllProduct" class="product__All">Browse All Product&nbsp;<i
             class="fas fa-long-arrow-alt-right"></i></button>
@@ -595,7 +600,7 @@
     <div class="feature__box">
 
         <div class="feature__box-cont">
-            <img src="../src/assets/imgs/delivery.png" alt="delivery">
+            <img src="src/assets/imgs/delivery.png" alt="delivery">
             <div class="feature__box-text">
                 <p>Free Delivery</p>
                 <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
@@ -604,7 +609,7 @@
         </div>
 
         <div class="feature__box-cont">
-            <img src="../src/assets/imgs/sales.png" alt="sale">
+            <img src="src/assets/imgs/sales.png" alt="sale">
             <div class="feature__box-text">
                 <p>Sales & discounts</p>
                 <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
@@ -613,7 +618,7 @@
         </div>
 
         <div class="feature__box-cont">
-            <img src="../src/assets/imgs/assurance.png" alt="accurance">
+            <img src="src/assets/imgs/assurance.png" alt="accurance">
             <div class="feature__box-text">
                 <p>Quality assurance</p>
                 <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
@@ -627,7 +632,7 @@
 <div class="subscribeBG">
     <div class="subscribe container">
         <div class="subscribe__block">
-            <img src="../src/assets/imgs/Layer_40.png" alt="photo">
+            <img src="src/assets/imgs/Layer_40.png" alt="photo">
             <div class="subscribe__block-text">
                 <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam
                     condimentum mattis neque sed pretium”</p>
@@ -693,7 +698,7 @@
 
     <div class="footer__bottom">
         <div class="footerBG container">
-            <p>&copy; 2017 Brand All Rights Reserved.</p>
+            <p>&copy; <?php echo date('Y'); ?> Brand All Rights Reserved.</p>
             <div class="footerBGLink">
                 <a href="#" class="socialLink"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="socialLink"><i class="fab fa-twitter"></i></a>
