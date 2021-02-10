@@ -85,6 +85,10 @@ body {
   width: 100px;
   height: 115px;
   margin-right: 20px;
+  & img {
+    width: inherit;
+    height: inherit;
+  }
 }
 
 .detailesDescription a {

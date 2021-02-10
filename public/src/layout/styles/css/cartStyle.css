@@ -428,6 +428,9 @@ body {
   width: 100px;
   height: 115px;
   margin-right: 20px; }
+  .detailesImage img {
+    width: inherit;
+    height: inherit; }
 
 .detailesDescription a {
   text-decoration: none;

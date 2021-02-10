@@ -1,28 +1,57 @@
 <?php
+/*
+ if(empty($_GET)){
+    echo "good";
+}
+if(empty($_GET['operation'])){
+    echo "Не передана операция";
+}
+if(empty($_GET['a'] || $_GET['b'])){
+    echo "Нет аргументов";
+}
 
-?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+$a = $_GET['a'];
+$operation = $_GET['operation'];
+$b = $_GET['b'];
+*/
 
-<form action="/result.php">
-    <input type="text" name="x1">
-    <select name="operation">
-        <option value="+">+</option>
-        <option value="-">-</option>
-        <option value="*">*</option>
-        <option value="/">/</option>
-    </select>
-    <input type="text" name="x2">
-    <input type="submit" value="Посчитать">
-</form>
+if(empty($_POST)){
+    echo "good";
+}
+if(empty($_POST['operation'])){
+    echo "Не передана операция";
+}
+if(empty($_POST['a'] || $_POST['b'])){
+    echo "Нет аргументов";
+}
 
-</body>
-</html>
+$a = $_POST['a'];
+$operation = $_POST['operation'];
+$b = $_POST['b'];
+
+
+function mathOperation($a, $b, $operation)
+{
+    $result = "";
+    switch ($operation) {
+        case "+":
+            return $a + $b;
+            break;
+        case "*":
+            return $a * $b;
+            break;
+        case "-":
+            return $a - $b;
+            break;
+        case "/":
+           if ($b == 0) {
+                return "на ноль делить нельзя";
+            } else {
+                return $a / $b;
+            }
+            break;
+    }
+    return $result;
+}
+
+echo "<br> result: " . mathOperation($a, $b, $operation);
