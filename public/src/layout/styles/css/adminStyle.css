@@ -1,0 +1,25 @@
+form {
+  width: 500px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around; }
+  form label {
+    color: #222222;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 10px; }
+    form label span {
+      font-size: 17px; }
+  form input {
+    width: 390px;
+    height: 25px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    padding: 10px; }
+    form input[type="submit"] {
+      padding: 0;
+      height: 35px;
+      width: 410px; }
